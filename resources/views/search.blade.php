@@ -19,6 +19,7 @@
                     <input type="text" class="form-control" placeholder="search movie" name="searchvalue">
                     <button type="submit" class="btn btn-danger">Search</button>
                   </div>
+                  <a href="{{ route('random') }}" class="btn btn-danger my-2">{{__('Surprise me')}}</a>
             </form>
             <div class="bg-dark overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-dark border-b border-gray-200">

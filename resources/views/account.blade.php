@@ -20,6 +20,7 @@
                     <button type="submit" class="btn btn-danger">Search</button>
                   </div>
             </form>
+            <a href="{{ route('random') }}" class="btn btn-danger my-2">{{__('Surprise me')}}</a>
             <div class="bg-dark overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-dark border-b border-gray-200">
                     <div class="container bg-dark">
